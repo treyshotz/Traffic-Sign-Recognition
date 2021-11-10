@@ -1,3 +1,0 @@
-Spørsmål til 12.11
-
-Hva menes med ulike modeller? Mener du da flere CNN modeller satt opp på ulike måter?
