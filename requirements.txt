@@ -1,3 +1,4 @@
 kaggle==1.5.12
 tensorflow==2.7.0
 tensorflow-datasets==4.4.0
+pillow==8.4.0
