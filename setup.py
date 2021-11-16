@@ -14,7 +14,7 @@ def download_dataset():
 
 
 def setup_test_dataset():
-    parent_dir = "kaggle/Test/"
+    parent_dir = "kaggle/TestWithDirs/"
     for i in range(0, 43):
         try:
             path = os.path.join(parent_dir, str(i)+"/")
@@ -29,9 +29,9 @@ def setup_test_dataset():
     for j in range(len(test_data)):
         print(f"current pos: {j}")
         print(f"path of file: {path[j]}")
-        filename = path[j].replace("Test/", "")
+        filename = path[j].replace("TestWithDirs/", "")
         print(f"class_id of file: {class_id[j]}")
-        os.replace("kaggle/" +path[j], f"kaggle/Test/{class_id[j]}/"+filename)
+        os.replace("kaggle/" +path[j], f"kaggle/TestWithDirs/{class_id[j]}/"+filename)
 
 #download_dataset()
 #setup_test_dataset()
